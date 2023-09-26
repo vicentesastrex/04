@@ -1,0 +1,66 @@
+body {
+    
+    background-image: url('asset/fondoo.img.jpg');
+    background-size: cover;
+
+}
+
+#copas {
+    background-image:
+    background-size: cover;
+
+}
+
+ul li {
+    color: honeydew;
+}
+
+h2 {
+    background-color: #fff;
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 1100;
+    background-color: #fff;
+    /* peso del contorno de la letra */
+}
+
+p {
+    text-align: center;
+    background-color: #fff;
+}
+
+
+/* lista y enlace */
+#opciones {
+    text-align: center;
+    list-style: none;
+    /* elimina los puntitos (viñeta) */
+}
+
+#opciones li {
+    display: inline-block;
+    /* la lista la coloca horizontalmente */
+    padding: 10px;
+}
+
+.boton {
+    text-decoration: none;
+    /* Eliminamos el subrayado del enlace */
+    color: #fff;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    /* margen interior */
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.boton:hover {
+    /* pseudoclase hover se activa cuando el mouse está por encima del elemento */
+    background-color: rgb(255, 255, 255);
+    color: #000;
+}
